@@ -26,7 +26,7 @@ bot = Client(
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def start(_, message):
    if message.chat.type == 'private':
-       await message.reply("**Hey There, I'm a song downloader bot.\nUsage:** `/song [query]`",   
+       await message.reply("**Haii👋, aku adalah bot khusus untuk mendownload lagu dari youtube 🎶.\nPerintah:** `/song [Artis / Judul lagu]`",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                      InlineKeyboardButton(
