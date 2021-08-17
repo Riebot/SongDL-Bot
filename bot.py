@@ -30,7 +30,7 @@ async def start(_, message):
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                      InlineKeyboardButton(
-                                            "Source", url="https://github.com/me-piro-786/SongDL-Bot")
+                                            "Managed with", url="https://t.me/SilenceSpe4ks")
                                     ]]
                             ))
    else:
@@ -44,7 +44,7 @@ async def song(_, message):
        return await message.reply("**Usage:**\n - `/song [query]`")
     query = message.text.split(None, 1)[1]
     user_name = message.from_user.first_name
-    shed = await message.reply("🔎 Finding the Song...")
+    shed = await message.reply("🔎 sedang Mencari Lagu...")
     opts = {
         "format": "bestaudio",
         "addmetadata": True,
@@ -72,11 +72,11 @@ async def song(_, message):
 
     except Exception as e:
         await shed.edit(
-            "❌ Found Nothing.\nTry another keyword or maybe spell it properly."
+            "❌ Tidak ditemukan apa-apa.\nCoba ketik nama artis dan judul lagu yang jelas dan lengkap."
         )
         print(str(e))
         return
-    await shed.edit("📥 Downloading...")
+    await shed.edit("📥 Sedang Mendownload lagu...")
     try:
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
