@@ -26,15 +26,15 @@ bot = Client(
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def start(_, message):
    if message.chat.type == 'private':
-       await message.reply("**Haii👋, aku adalah bot khusus untuk mendownload lagu dari youtube 🎶.\nPerintah:** `/song [Artis / Judul lagu]`",   
+       await message.reply("**Haii👋, Jika kalian merasa tidak enak karena spam di grup karena Download an kamu? kamu bisa spam disini karena bot ini khusus untuk mendownload lagu, dan kalian bisa salin link dari youtube dan paste kan kesini untuk dijadikan Mp3 .\nPerintah:** `/song [Artis / Judul lagu]`",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                      InlineKeyboardButton(
-                                            "Managed with", url="https://t.me/SilenceSpe4ks")
+                                            "Managed with ☕", url="https://t.me/SilenceSpe4ks")
                                     ]]
                             ))
    else:
-      await message.reply("**Song DL Bot is Online ✨**")
+      await message.reply("**Song Stereo Bot is Online ✨**")
 
 
 
@@ -44,7 +44,7 @@ async def song(_, message):
        return await message.reply("**Usage:**\n - `/song [query]`")
     query = message.text.split(None, 1)[1]
     user_name = message.from_user.first_name
-    shed = await message.reply("🔎 sedang Mencari Lagu...")
+    shed = await message.reply("🔎 Sedang Mencari Lagu...")
     opts = {
         "format": "bestaudio",
         "addmetadata": True,
@@ -76,7 +76,7 @@ async def song(_, message):
         )
         print(str(e))
         return
-    await shed.edit("📥 Sedang Mendownload lagu...")
+    await shed.edit("📥 Sedang Mendownload Lagu...")
     try:
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
@@ -90,7 +90,7 @@ async def song(_, message):
         else:
             thumb = None
         tail = time.time()
-        CAPT = f"**🎶 Song -** [{rip_data['title']}]({url}) \n**👤 Req. By -** `{user_name}` \n"
+        CAPT = f"**🎶 Judul Lagu -** [{rip_data['title']}]({url}) \n**👤 Di Request Oleh  -** `{user_name}` \n"
         s = await message.reply_audio(rip_file, caption=CAPT, thumb=thumb, parse_mode='md', title=str(rip_data["title"]), duration=int(rip_data["duration"]))
         await shed.delete()
     except Exception as e:
