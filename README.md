@@ -1,8 +1,9 @@
 # Song Download-Bot 🎵
 
-<b>A Telegram Bot that can download High Quality Songs from YouTube.</b>
+<b>Bot telegram yang dapat mengunduh lagu-lagu berkualitas tinggi dari YouTube.</b>
 
-Can Be Found on Telegram as [@Songstereobot](http://t.me/Songstereobot)
+Dapat ditemukan dan download langsung di telegram </b>
+[@Songstereobot](http://t.me/Songstereobot)
 
 ## Deploy
 
