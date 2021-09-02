@@ -1,16 +1,16 @@
 {
-    "name": "SongDL-Bot",
-    "description": "A bot that can download songs from YT",
-    "logo": "https://telegra.ph/file/12a12ad933f3f972deb61.jpg",
+    "name": "Stereosongbot",
+    "description": "Bot yang dapat mengunduh lagu dari YT",
+    "logo": "https://telegra.ph/file/10e82c2b38480f6952ba2.jpg",
     "keywords": [
         "SongDL-Bot",
         "Song Downloader",
         "Telegram Bot"
     ],
-    "repository": "https://github.com/me-piro-786/SongDL-Bot",
+    "repository": "https://github.com/Riebot/SongDL-Bot",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your Telegram Bot Token from @BotFather",
+            "description": "masukan Bot Token Dari @BotFather",
             "value": ""
         }
     },
