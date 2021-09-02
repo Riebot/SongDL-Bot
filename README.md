@@ -1,8 +1,8 @@
-# SongDL-Bot 🎵
+# Song Download-Bot 🎵
 
 <b>A Telegram Bot that can download High Quality Songs from YouTube.</b>
 
-Can Be Found on Telegram as [@Songstereobot](http://t.me/SongDL_Robot)
+Can Be Found on Telegram as [@Songstereobot](http://t.me/Songstereobot)
 
 ## Deploy
 
