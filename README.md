@@ -9,8 +9,6 @@ Dapat ditemukan dan download langsung di telegram </b>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-## <b> Jangan hapus credits..<b>
-
 
 ## Credits
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
