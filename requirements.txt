@@ -6,3 +6,6 @@ pyrogram
 tgcrypto
 youtube_search_python
 asyncio
+pytube
+sqlalchemy==1.3.23
+psycopg2
