@@ -47,6 +47,7 @@ async def song(_, message):
     shed = await message.reply("🔎 Sedang Mencari Lagu...")
     opts = {
         "format": "bestaudio",
+        "verbose": True,
         "addmetadata": True,
         "key": "FFmpegMetadata",
         "writethumbnail": True,
