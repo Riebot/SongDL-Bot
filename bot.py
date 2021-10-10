@@ -4,7 +4,6 @@ import os
 import random
 import time
 import logging
-import requests
 import aiohttp
 import json
 from youtube_dl import YoutubeDL
