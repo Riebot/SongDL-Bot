@@ -5,5 +5,6 @@ tgCrypto>=1.2.2
 ffmpeg
 ujson
 youtube_dl
-https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-github
+https://git.ffmpeg.org/ffmpeg.git
+
 
