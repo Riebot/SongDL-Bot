@@ -1,13 +1,24 @@
 # Thanks to TeamUltroid for their Song Module.
 
+
+from __future__ import unicode_literals
+
+import random 
+import randint
+import asyncio
 import os
-import random
+import math
 import time
 import logging
+import requests
+import wget
 import aiohttp
 import json
+import youtube_dl
 from youtube_dl import YoutubeDL
+from urllib.parse import urlparse
 from pyrogram import filters, Client, idle
+from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from config import API_ID, API_HASH, BOT_TOKEN
