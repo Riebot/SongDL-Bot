@@ -3,7 +3,7 @@ youtube_search_python
 pyrogram>=1.0.7
 tgCrypto>=1.2.2
 ffmpeg
-ffmpeg-avconv
+avconv
 ujson
 youtube_dl
 youtube_search
