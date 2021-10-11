@@ -3,8 +3,7 @@
 
 from __future__ import unicode_literals
 
-import random 
-import randint
+import random
 import asyncio
 import os
 import math
