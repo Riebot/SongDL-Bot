@@ -40,7 +40,7 @@ async def start(_, message):
 @bot.on_message(filters.command("song") & ~filters.edited)
 async def song(_, message):
     if len(message.command) < 2:
-       return await message.reply("**Usage:**\n - `/song [query]`")
+       return await message.reply("__Ketik nama artis dan judul lagu__\n**Contoh:**\n `/song for revenge - jentaka`")
     query = message.text.split(None, 1)[1]
     user_name = message.from_user.first_name
     shed = await message.reply("🔎 Sedang Mencari Lagu...")
