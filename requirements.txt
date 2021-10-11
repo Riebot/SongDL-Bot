@@ -5,6 +5,12 @@ tgCrypto>=1.2.2
 ffmpeg
 ujson
 youtube_dl
+youtube_search
+search_engine_parser
+ffmpeg-python
+pillow
+future
+psutil
 wget
 heroku3
 
