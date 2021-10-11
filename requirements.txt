@@ -6,6 +6,7 @@ ffmpeg
 ujson
 youtube_dl
 wget
+request
 heroku3
 
 
