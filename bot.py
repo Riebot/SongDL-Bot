@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 
 import random
 import asyncio
-import avconv
 import os
 import math
 import time
