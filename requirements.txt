@@ -9,6 +9,7 @@ yt_dlp
 youtube_search
 search_engine_parser
 ffmpeg-python
+ffprobe
 pillow
 future
 psutil
