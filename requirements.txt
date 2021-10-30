@@ -5,6 +5,7 @@ tgCrypto>=1.2.2
 ffmpeg
 ujson
 youtube_dl
+yt_dlp
 youtube_search
 search_engine_parser
 ffmpeg-python
