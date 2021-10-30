@@ -13,8 +13,8 @@ import requests
 import wget
 import aiohttp
 import json
-import youtube_dl
-from youtube_dl import YoutubeDL
+import yt_dlp
+from yt_dlp import YoutubeDL
 from urllib.parse import urlparse
 from pyrogram import filters, Client, idle
 from youtube_search import YoutubeSearch
@@ -39,7 +39,7 @@ async def start(_, message):
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                      InlineKeyboardButton(
-                                            "Managed with ☕", url="https://t.me/SilenceSpe4ks")
+                                            "Ngopi bwang ☕", url="https://t.me/SilenceSpe4ks")
                                     ]]
                             ))
    else:
