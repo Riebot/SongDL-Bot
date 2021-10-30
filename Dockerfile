@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9.7-slim-buster
 
 RUN apt update && apt upgrade -y
 RUN apt install python3-pip -y
